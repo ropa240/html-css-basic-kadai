@@ -2,6 +2,7 @@
   display: block;
   margin: 20px; 
   width: 800px;
+  text-align: center;
   background-color:  #dcc9f4;    
 }
 
@@ -20,7 +21,7 @@
 
 
 .top-child {
-  display: inline;
+  display: inline-block;
   margin: 20px;
   text-align: center;
   width: 20%;
