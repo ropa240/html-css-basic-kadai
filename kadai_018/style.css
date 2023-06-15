@@ -5,6 +5,20 @@
   background-color:  #dcc9f4;    
 }
 
+#first-span {
+  margin: 20%;
+}
+
+#second-span {
+  margin: 20%;
+}
+
+
+#third-span {
+  margin: 20%;
+}
+
+
 .top-child {
   display: inline;
   margin: 20px;
