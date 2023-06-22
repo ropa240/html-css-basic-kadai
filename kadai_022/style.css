@@ -1,0 +1,76 @@
+h1,p,body {
+margin: 0;
+}
+
+.contents > h2::before {
+  size: 25px;
+  border-bottom: 3px rgb(236, 122, 122);
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+
+
+header {
+  text-align: center;
+  background-color: rgb(244, 79, 79);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+p,a {
+  size: 20px;
+}
+
+.parent p:nth-child(3)::first-letter  {
+  color: rgb(97, 206, 249);
+  font-weight: bold;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+}
+
+.contents {
+  padding: 10px 15px 10px 15px;
+  margin: 20px 0px 20px 0px;
+  flex-basis: 25%;
+  border:solid 3px rgb(238, 204, 204);
+}
+
+.container {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 79, 79);
+}
+
+.container > a:link{
+  color: rgb(244, 79, 79);
+}
+
+.container > a:hover {
+color: rgb(245, 178, 168);
+}
+
+.container > a:active {
+  color: rgb(193, 234, 251);
+  }
+
+@media screen and (max-width: 768px) {
+  h2 {
+      size: 30x;
+  }
+  p {
+    size: 25px;
+  }
+  #parent {
+    flex-direction: column;
+  }
+}
