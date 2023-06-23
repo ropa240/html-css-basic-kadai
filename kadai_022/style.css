@@ -79,3 +79,7 @@ color: rgb(245, 178, 168);
     flex-direction: column;
   }
 }
+
+img {
+  max-width: 100%;
+}
