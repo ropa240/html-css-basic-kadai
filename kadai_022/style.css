@@ -2,6 +2,11 @@ h1,p,body {
 margin: 0;
 }
 
+p,a {
+  size: 20px;
+}
+
+
 .contents > h2::before {
   size: 25px;
   border-bottom: 3px rgb(236, 122, 122);
@@ -21,16 +26,12 @@ h1 {
   font-weight: bold;
 }
 
-p,a {
-  size: 20px;
-}
-
-.parent p:nth-child(3)::first-letter  {
+#parent p:nth-child(3)::first-letter  {
   color: rgb(97, 206, 249);
   font-weight: bold;
 }
 
-.parent {
+#parent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -38,10 +39,14 @@ p,a {
   margin: 10px;
 }
 
+.parent {
+  flex-wrap: wrap;
+}
+
 .contents {
+  flex-basis: 25%;
   padding: 10px 15px 10px 15px;
   margin: 20px 0px 20px 0px;
-  flex-basis: 25%;
   border:solid 3px rgb(238, 204, 204);
 }
 
